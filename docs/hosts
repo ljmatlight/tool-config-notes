@@ -1,0 +1,34 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+127.0.0.1       www.galsang.org
+127.0.0.1       www.galsang.io
+
+# 使用github较快的节点进行访问
+204.232.175.78 http://documentcloud.github.com
+207.97.227.239 http://github.com
+204.232.175.94 http://gist.github.com
+107.21.116.220 http://help.github.com
+207.97.227.252 http://nodeload.github.com
+199.27.76.130 http://raw.github.com
+107.22.3.110 http://status.github.com
+204.232.175.78 http://training.github.com
+207.97.227.243 http://www.github.com
+
+ 
