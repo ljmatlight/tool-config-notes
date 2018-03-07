@@ -41,4 +41,21 @@ git checkout 本地分支名x
 
 ```
 
+## 删除本地分支
+
+```bash
+
+git branch -d branchName
+
+```
+
+## 删除远程分支
+
+```bash
+
+git branch -r -d origin/branchName
+git push origin:branchName
+
+```
+
  
