@@ -161,10 +161,10 @@ under the License.
         <!-- 防止私服挂掉配置 -->
         <!-- 阿里云 -->
         <mirror>
-            <id>alimaven</id>
-            <name>aliyun maven</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-            <mirrorOf>*</mirrorOf>
+            <id>nexus-aliyun</id>
+            <mirrorOf>central</mirrorOf>
+            <name>Nexus aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/repositories/central</url>
         </mirror>
         <mirror>
             <id>ui</id>
@@ -172,24 +172,7 @@ under the License.
             <name>Human Readable Name for this Mirror.</name>
             <url>http://uk.maven.org/maven2/</url>
         </mirror>
-        <mirror>
-            <id>CN</id>
-            <name>OSChina Central</name>
-            <url>http://maven.oschina.net/content/groups/public/</url>
-            <mirrorOf>central</mirrorOf>
-        </mirror>
-        <mirror>
-            <id>net-cn</id>
-            <mirrorOf>central</mirrorOf>
-            <name>Human Readable Name for this Mirror.</name>
-            <url>http://maven.net.cn/content/groups/public/</url>
-        </mirror>
-        <mirror>
-            <id>ibiblio</id>
-            <mirrorOf>central</mirrorOf>
-            <name>Human Readable Name for this Mirror.</name>
-            <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
-        </mirror>
+
         <mirror>
             <id>jboss-public-repository-group</id>
             <mirrorOf>central</mirrorOf>
