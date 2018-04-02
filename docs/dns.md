@@ -70,7 +70,7 @@ ping dnsIp -t
 
 ```bash
 
-trace dnsIp
+tracert dnsIp
 
 ```
 
