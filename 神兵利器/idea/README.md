@@ -15,12 +15,12 @@ IntelliJ IDEA导出设置
 
 ## 常用插件
 
-spring assistant
-formatYaml
-snakeyaml
-Properties to Yaml Converter
-.ignore
-lombok plugin
+- spring assistant
+- formatYaml
+- snakeyaml
+- Properties to Yaml Converter
+- .ignore
+- lombok plugin
 
 ## 配置
 
