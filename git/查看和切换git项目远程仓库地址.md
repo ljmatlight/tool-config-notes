@@ -45,3 +45,13 @@ git remote rm origin
 git remote add origin url
 
 ```
+
+### 方式三：
+
+修改git项目配置文件
+
+进入到项目目录，使用 ` vim .git/config` 命令编辑修改原有git仓库地址即可
+
+如下图：
+
+![../static/images/git仓库更换.bmp](../static/images/git仓库更换.bmp)
