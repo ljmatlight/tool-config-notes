@@ -22,6 +22,20 @@ IntelliJ IDEA导出设置
 - .ignore
 - lombok plugin
 
+## 工程管理
+
+### 项目输出成文档树 
+    在 IDEA 中 写文档的时候，想把项目输出成文档树的形式，可以使用以下命令：
+```bash
+  # 只有文件夹
+  tree  >>	D:/tree.txt 
+  
+  # 包括文件夹和文件
+  tree /f >>	D:/tree.txt 
+```
+
+
+
 ## 配置
 
 
