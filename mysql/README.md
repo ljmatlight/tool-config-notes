@@ -34,6 +34,12 @@ FLUSH PRIVILEGES;
  
 ```
 
+#### 查看MySQL引擎信息
+
+```bash
+show engine innodb status;
+```
+
 ### MySQL 查看表的索引
 
 #### 查看表的索引：
